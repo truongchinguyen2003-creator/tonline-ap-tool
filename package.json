@@ -1,0 +1,18 @@
+{
+  "name": "apple-forgot-tool",
+  "version": "1.0.0",
+  "description": "Apple iForgot password reset automation with T-Online alias + CapSolver",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "imap": "^0.8.19",
+    "mailparser": "^3.6.5",
+    "puppeteer": "^21.6.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "private": true
+}
